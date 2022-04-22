@@ -1,0 +1,61 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+}
+.nav-wrapper{
+    width: 70%;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+// .brand-img{
+//     margin-top: 5px;
+//     height: 100%;
+
+// }
+
+.search-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 25px;
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    color: rgba(0,0,0.5);
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.chat{
+    width: 50%;
+    height: 25px;
+    margin-left: 55%;
+    
+}
+.chat1{
+    width: 50%;
+    height: 25px;
+  
+}
+.chat2{
+    width: 50%;
+    
+}
+
+@media (max-width:720px) {
+    .search-box{
+        display: none;
+    }
+}
